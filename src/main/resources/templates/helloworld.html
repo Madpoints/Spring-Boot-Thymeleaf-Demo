@@ -4,16 +4,14 @@
 <head>
 	<title>Thymelead Demo</title>
 	
-	<link rel="stylesheet" th:ref="@{/css/demo.css}"/>
+	<link rel="stylesheet" th:href="@{/css/demo.css}"/>
 	
 </head>
 
 <body>
-<<<<<<< HEAD
-	<p th:text="'The time on the server is: ' + ${theDate}" class="demo"/>
-=======
-	<p th:text="'The time on the server is: ' + ${theDate}"/>
->>>>>>> c1aaa4ff5e728753253b11358ec1bc3a822bdd71
+
+	<p th:text="'The time on the server is: ' + ${theDate}" class="custom"/>
+	
 </body>
 
 </html>
